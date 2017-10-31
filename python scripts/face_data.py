@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import requests
-import configparser
 import os
 import datetime
 # импортируем для получения аргументов
@@ -113,7 +112,7 @@ while(True):
         break
 
     # If image taken reach 100, stop taking video
-    elif count>99:
+    elif count>49:
         break
 
 # Stop video
